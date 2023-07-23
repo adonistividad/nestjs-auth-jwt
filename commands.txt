@@ -1,3 +1,14 @@
+https://www.youtube.com/watch?v=_L225zpUK0M
+
 yarn add @nestjs/passport passport passport-local
 yarn add -D @types/passport-local
 
+yarn add @nestjs/jwt passport-jwt
+yarn add -D @types/passport-jwt
+
+yarn add @nestjs/config
+
+
+ERROR [ExceptionsHandler] secretOrPrivateKey must have a value
+>> in auth.service 
+access_token: this.jwtService.sign(payload, { secret: jwtConstants.secret})
